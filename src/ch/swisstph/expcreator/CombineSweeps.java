@@ -176,8 +176,13 @@ public class CombineSweeps {
         baseDocument.normalize();
 
         if (validation) {
+            int ver = Integer.parseInt(baseElement.getAttribute("schemaVersion"));
             // Create a validator for use later
-            String schemaName = baseElement.getAttribute("xsi:noNamespaceSchemaLocation");
+            String schemaName;
+            if (ver < 32) schemaName = baseElement.getAttribute("xsi:noNamespaceSchemaLocation");
+            // With namespace: attribute should have "URI SCHEMA" (one space
+            // separating two values). This is a bit hacky:
+            else schemaName = baseElement.getAttribute("xsi:schemaLocation").split(" ")[1];
 
             File xsdFile = new File(inputDir, schemaName);
             if (!xsdFile.isFile()) {
