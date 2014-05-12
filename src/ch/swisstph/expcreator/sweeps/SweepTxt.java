@@ -12,17 +12,17 @@ import ch.swisstph.expcreator.patchtree.PTBase;
 
 public class SweepTxt extends Sweep {
 
-	public SweepTxt(String fName,File[] armTxts) throws Exception {
-		
-		super(fName);
-		
-		System.out.println("SweepTxt: " + name);
-		
-		Element base = CombineSweeps.getBaseElement();
-		
-		arms = new ArrayList<Arm>(armTxts.length);
-		
-		for (int i = 0; i < armTxts.length; ++i) {
+    public SweepTxt(String fName,File[] armTxts) throws Exception {
+        
+        super(fName);
+        
+        System.out.println("SweepTxt: " + name);
+        
+        Element base = CombineSweeps.getBaseElement();
+        
+        arms = new ArrayList<Arm>(armTxts.length);
+        
+        for (int i = 0; i < armTxts.length; ++i) {
             arms.add(new ArmTxt(base, armTxts[i]));
             String armName = arms.get(i).getName();
             if (armName.equals("comparator")) {
@@ -42,14 +42,14 @@ public class SweepTxt extends Sweep {
             }
             System.out.println();
         }
-	}
+    }
 
-	// public void updateDb(Connection conn, int sweepIndex) throws Exception {}
+    // public void updateDb(Connection conn, int sweepIndex) throws Exception {}
 
-	public void writePatches(File parentOutDir) throws Exception {}
+    public void writePatches(File parentOutDir) throws Exception {}
 
-	public PTBase getPatchCoverage() {
-		return null;
-	}
+    public PTBase getPatchCoverage() {
+        return null;
+    }
 
 }

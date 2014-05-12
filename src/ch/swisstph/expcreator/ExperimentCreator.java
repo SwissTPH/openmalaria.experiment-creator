@@ -148,27 +148,27 @@ public class ExperimentCreator {
             if (patches) {
                 mainObj.writePatches(outputDir);
             } else {
-            	
-            	mainObj.genCombinationList(sceIdStart);
-            	
-            	if(readList) {
-            		mainObj.readCombinationList(sceIdStart, scnListPath);
-            	}
+                
+                mainObj.genCombinationList(sceIdStart);
+                
+                if(readList) {
+                    mainObj.readCombinationList(sceIdStart, scnListPath);
+                }
 
                 if (!writeListOnly) {
                     if (dbUrl != null) {
-                    	int sceIdDb = -1;
-                    	sceIdDb = mainObj.updateDb(dbUrl, dbUser);
-                    	if( sceIdDb != -1 ) {
-                    		sceIdStart = sceIdDb;
-                    	}
+                        int sceIdDb = -1;
+                        sceIdDb = mainObj.updateDb(dbUrl, dbUser);
+                        if( sceIdDb != -1 ) {
+                            sceIdStart = sceIdDb;
+                        }
                     }
 
                     mainObj.combine(outputDir, uniqueSeeds);
                 }
                 
                 if(!readList) {
-                	mainObj.writeCombinationList(sceIdStart, scnListPath);
+                    mainObj.writeCombinationList(sceIdStart, scnListPath);
                 }
                 
             }
