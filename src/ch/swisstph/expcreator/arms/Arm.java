@@ -36,7 +36,7 @@ import ch.swisstph.expcreator.CombineSweeps;
 public abstract class Arm {
     // The differences represented by this branch. null if no differences.
     protected int id = -1; // arm's DB ID
-    protected final String name; // file name
+    protected final String name; // name of arm, usually taken from the file name
     protected final String label; // label; called 'value' in database; from
                                   // scenario's 'name' attribute
     protected final Element base;
@@ -54,15 +54,10 @@ public abstract class Arm {
     public Arm(int n) {
         name = Integer.toString(n);
         label = name;
-        Document document = CombineSweeps.getBuilder().newDocument();
-        Attr seed = document.createAttribute("iseed");
-        seed.setValue(name);
-
         base = null;
     }
 
     /** Constructor that just sets the name and label for dummy arms */
-
     public Arm(String name) {
         this.name = name;
         this.label = name;

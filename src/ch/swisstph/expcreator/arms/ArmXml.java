@@ -94,14 +94,14 @@ public class ArmXml extends Arm {
     }
 
     /** Constructor setting random seed to n. */
-    public ArmXml(int n) {
-
+    public ArmXml(int n, boolean useNamespaces) {
         super(n);
         Document document = CombineSweeps.getBuilder().newDocument();
         Attr seed = document.createAttribute("iseed");
         seed.setValue(name);
-
-        patch = new PTElement("scenario", new PTNodeList("model",
+        
+        String scenarioName = useNamespaces ? "om:scenario" : "scenario";
+        patch = new PTElement(scenarioName, new PTNodeList("model",
                 new PTElement("model", new PTNodeList("parameters",
                         new PTElement("parameters", new PTReplaceAttr(seed))))));
     }

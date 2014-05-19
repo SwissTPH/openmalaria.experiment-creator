@@ -125,7 +125,7 @@ public class SweepXml extends Sweep {
     }
 
     // Construct sweep with name fName and arms from nSeeds different seeds
-    public SweepXml(String fName, int nSeeds) throws Exception {
+    public SweepXml(String fName, int nSeeds, boolean useNamespaces) throws Exception {
         super(fName);
 
         if (nSeeds < 1) {
@@ -139,7 +139,7 @@ public class SweepXml extends Sweep {
         arms = new ArrayList<Arm>(nSeeds);
 
         for (int i = 1; i <= nSeeds; ++i) { // first seed should be 1
-            arms.add(new ArmXml(i));
+            arms.add(new ArmXml(i, useNamespaces));
         }
 
         refArm = 0; // not very meaningful but must be something

@@ -117,6 +117,12 @@ public class CombineSweeps {
     private ArrayList<Sweep> sweeps;
     private boolean min3Sweeps;
     private ScenarioArmAssociation[] scenarios;
+    private static int schemaVersion_ = -1;      // schema version, negative if not set
+    
+    private static int schemaVersion() throws Exception{
+        if (schemaVersion_ < 0) throw new Exception("crash because schema version was requested before it was available");
+        return schemaVersion_;
+    }
 
     public CombineSweeps(String name, String desc, boolean min3Sweeps) {
         expId = -1;
@@ -170,19 +176,24 @@ public class CombineSweeps {
         baseElement = baseDocument.getDocumentElement();
         baseElement.setAttribute("name", ""); // make sure this Attr isn't
         // patched
+        
+        schemaVersion_ = Integer.parseInt(baseElement.getAttribute("schemaVersion"));
 
         // Reformat: remove all whitespace nodes
         Utils.stripWhitespace(baseElement, org.w3c.dom.Node.TEXT_NODE, "#text");
         baseDocument.normalize();
 
         if (validation) {
-            int ver = Integer.parseInt(baseElement.getAttribute("schemaVersion"));
             // Create a validator for use later
             String schemaName;
-            if (ver < 32) schemaName = baseElement.getAttribute("xsi:noNamespaceSchemaLocation");
-            // With namespace: attribute should have "URI SCHEMA" (one space
-            // separating two values). This is a bit hacky:
-            else schemaName = baseElement.getAttribute("xsi:schemaLocation").split(" ")[1];
+            if (schemaVersion() < 32){
+                // version before XML namespaces were used
+                schemaName = baseElement.getAttribute("xsi:noNamespaceSchemaLocation");
+            }else{
+                // With namespace: attribute should have "URI SCHEMA" (one space
+                // separating two values). This is a bit hacky:
+                schemaName = baseElement.getAttribute("xsi:schemaLocation").split(" ")[1];
+            }
 
             File xsdFile = new File(inputDir, schemaName);
             if (!xsdFile.isFile()) {
@@ -578,7 +589,7 @@ public class CombineSweeps {
     }
 
     public void addSeedsSweep(int nSeeds) throws Exception {
-        Sweep sweep = new SweepXml("seed", nSeeds);
+        Sweep sweep = new SweepXml("seed", nSeeds, schemaVersion() >= 32);
         sweeps.add(sweep);
     }
 
