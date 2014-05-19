@@ -1,0 +1,2 @@
+java -jar C:\LocalDiskCOldWorkPC\Openmalaria\Tools\experimentCreator.jar --stddirs C:\OpenMalariaStuff\Experiments\CHOICEVIVAX\TEST\CHOICEVIVAX\CHOICEVIVAX --no-validation --seeds 1 --unique-seeds true --name CHOICEVIVAX
+pause

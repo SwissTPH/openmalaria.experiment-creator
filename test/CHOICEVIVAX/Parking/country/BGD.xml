@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<om:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Vivax test" schemaVersion="32" xsi:schemaLocation="http://openmalaria.org/schema/scenario_32 scenario_32.xsd" xmlns:om="http://openmalaria.org/schema/scenario_32">
+<!-- make sure the xsd in your directory matches the name here, e.g. scenario_32RC3.xsd in windows or scenario_32.xsd in linux-->
+  <interventions name="Full Set">
+    <human>
+      <deployment name="Extended ITNs">
+        <component id="ITN"/>
+        <timed>
+		<deploy coverage="0.000119514257547976" maxAge="1" minAge="0" time="7299"/>
+		<deploy coverage="0.000119514257547976" maxAge="5" minAge="1" time="7299"/>
+		<deploy coverage="6.70483361325117e-05" maxAge="10" minAge="5" time="7299"/>
+		<deploy coverage="4.66446045721476e-05" maxAge="15" minAge="10" time="7299"/>
+		<deploy coverage="4.59789927407233e-05" maxAge="20" minAge="15" time="7299"/>
+		<deploy coverage="7.49845444517595e-05" maxAge="25" minAge="20" time="7299"/>
+		<deploy coverage="0.000112050722773201" maxAge="30" minAge="25" time="7299"/>
+		<deploy coverage="0.000112050722773201" maxAge="35" minAge="30" time="7299"/>
+		<deploy coverage="0.000112050722773201" maxAge="40" minAge="35" time="7299"/>
+		<deploy coverage="0.000112050722773201" maxAge="45" minAge="40" time="7299"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="50" minAge="45" time="7299"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="55" minAge="50" time="7299"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="60" minAge="55" time="7299"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="65" minAge="60" time="7299"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="70" minAge="65" time="7299"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="75" minAge="70" time="7299"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="80" minAge="75" time="7299"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="85" minAge="80" time="7299"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="90" minAge="85" time="7299"/>
+		<deploy coverage="0.000119514257547976" maxAge="1" minAge="0" time="7372"/>
+		<deploy coverage="0.000119514257547976" maxAge="5" minAge="1" time="7372"/>
+		<deploy coverage="6.70483361325117e-05" maxAge="10" minAge="5" time="7372"/>
+		<deploy coverage="4.66446045721476e-05" maxAge="15" minAge="10" time="7372"/>
+		<deploy coverage="4.59789927407233e-05" maxAge="20" minAge="15" time="7372"/>
+		<deploy coverage="7.49845444517595e-05" maxAge="25" minAge="20" time="7372"/>
+		<deploy coverage="0.000112050722773201" maxAge="30" minAge="25" time="7372"/>
+		<deploy coverage="0.000112050722773201" maxAge="35" minAge="30" time="7372"/>
+		<deploy coverage="0.000112050722773201" maxAge="40" minAge="35" time="7372"/>
+		<deploy coverage="0.000112050722773201" maxAge="45" minAge="40" time="7372"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="50" minAge="45" time="7372"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="55" minAge="50" time="7372"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="60" minAge="55" time="7372"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="65" minAge="60" time="7372"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="70" minAge="65" time="7372"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="75" minAge="70" time="7372"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="80" minAge="75" time="7372"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="85" minAge="80" time="7372"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="90" minAge="85" time="7372"/>
+		<deploy coverage="0.000119514257547976" maxAge="1" minAge="0" time="7445"/>
+		<deploy coverage="0.000119514257547976" maxAge="5" minAge="1" time="7445"/>
+		<deploy coverage="6.70483361325117e-05" maxAge="10" minAge="5" time="7445"/>
+		<deploy coverage="4.66446045721476e-05" maxAge="15" minAge="10" time="7445"/>
+		<deploy coverage="4.59789927407233e-05" maxAge="20" minAge="15" time="7445"/>
+		<deploy coverage="7.49845444517595e-05" maxAge="25" minAge="20" time="7445"/>
+		<deploy coverage="0.000112050722773201" maxAge="30" minAge="25" time="7445"/>
+		<deploy coverage="0.000112050722773201" maxAge="35" minAge="30" time="7445"/>
+		<deploy coverage="0.000112050722773201" maxAge="40" minAge="35" time="7445"/>
+		<deploy coverage="0.000112050722773201" maxAge="45" minAge="40" time="7445"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="50" minAge="45" time="7445"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="55" minAge="50" time="7445"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="60" minAge="55" time="7445"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="65" minAge="60" time="7445"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="70" minAge="65" time="7445"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="75" minAge="70" time="7445"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="80" minAge="75" time="7445"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="85" minAge="80" time="7445"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="90" minAge="85" time="7445"/>
+		<deploy coverage="0.000119514257547976" maxAge="1" minAge="0" time="7518"/>
+		<deploy coverage="0.000119514257547976" maxAge="5" minAge="1" time="7518"/>
+		<deploy coverage="6.70483361325117e-05" maxAge="10" minAge="5" time="7518"/>
+		<deploy coverage="4.66446045721476e-05" maxAge="15" minAge="10" time="7518"/>
+		<deploy coverage="4.59789927407233e-05" maxAge="20" minAge="15" time="7518"/>
+		<deploy coverage="7.49845444517595e-05" maxAge="25" minAge="20" time="7518"/>
+		<deploy coverage="0.000112050722773201" maxAge="30" minAge="25" time="7518"/>
+		<deploy coverage="0.000112050722773201" maxAge="35" minAge="30" time="7518"/>
+		<deploy coverage="0.000112050722773201" maxAge="40" minAge="35" time="7518"/>
+		<deploy coverage="0.000112050722773201" maxAge="45" minAge="40" time="7518"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="50" minAge="45" time="7518"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="55" minAge="50" time="7518"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="60" minAge="55" time="7518"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="65" minAge="60" time="7518"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="70" minAge="65" time="7518"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="75" minAge="70" time="7518"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="80" minAge="75" time="7518"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="85" minAge="80" time="7518"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="90" minAge="85" time="7518"/>
+		<deploy coverage="0.000119514257547976" maxAge="1" minAge="0" time="7591"/>
+		<deploy coverage="0.000119514257547976" maxAge="5" minAge="1" time="7591"/>
+		<deploy coverage="6.70483361325117e-05" maxAge="10" minAge="5" time="7591"/>
+		<deploy coverage="4.66446045721476e-05" maxAge="15" minAge="10" time="7591"/>
+		<deploy coverage="4.59789927407233e-05" maxAge="20" minAge="15" time="7591"/>
+		<deploy coverage="7.49845444517595e-05" maxAge="25" minAge="20" time="7591"/>
+		<deploy coverage="0.000112050722773201" maxAge="30" minAge="25" time="7591"/>
+		<deploy coverage="0.000112050722773201" maxAge="35" minAge="30" time="7591"/>
+		<deploy coverage="0.000112050722773201" maxAge="40" minAge="35" time="7591"/>
+		<deploy coverage="0.000112050722773201" maxAge="45" minAge="40" time="7591"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="50" minAge="45" time="7591"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="55" minAge="50" time="7591"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="60" minAge="55" time="7591"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="65" minAge="60" time="7591"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="70" minAge="65" time="7591"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="75" minAge="70" time="7591"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="80" minAge="75" time="7591"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="85" minAge="80" time="7591"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="90" minAge="85" time="7591"/>
+		<deploy coverage="0.000119514257547976" maxAge="1" minAge="0" time="7664"/>
+		<deploy coverage="0.000119514257547976" maxAge="5" minAge="1" time="7664"/>
+		<deploy coverage="6.70483361325117e-05" maxAge="10" minAge="5" time="7664"/>
+		<deploy coverage="4.66446045721476e-05" maxAge="15" minAge="10" time="7664"/>
+		<deploy coverage="4.59789927407233e-05" maxAge="20" minAge="15" time="7664"/>
+		<deploy coverage="7.49845444517595e-05" maxAge="25" minAge="20" time="7664"/>
+		<deploy coverage="0.000112050722773201" maxAge="30" minAge="25" time="7664"/>
+		<deploy coverage="0.000112050722773201" maxAge="35" minAge="30" time="7664"/>
+		<deploy coverage="0.000112050722773201" maxAge="40" minAge="35" time="7664"/>
+		<deploy coverage="0.000112050722773201" maxAge="45" minAge="40" time="7664"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="50" minAge="45" time="7664"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="55" minAge="50" time="7664"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="60" minAge="55" time="7664"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="65" minAge="60" time="7664"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="70" minAge="65" time="7664"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="75" minAge="70" time="7664"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="80" minAge="75" time="7664"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="85" minAge="80" time="7664"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="90" minAge="85" time="7664"/>
+		<deploy coverage="0.000119514257547976" maxAge="1" minAge="0" time="7737"/>
+		<deploy coverage="0.000119514257547976" maxAge="5" minAge="1" time="7737"/>
+		<deploy coverage="6.70483361325117e-05" maxAge="10" minAge="5" time="7737"/>
+		<deploy coverage="4.66446045721476e-05" maxAge="15" minAge="10" time="7737"/>
+		<deploy coverage="4.59789927407233e-05" maxAge="20" minAge="15" time="7737"/>
+		<deploy coverage="7.49845444517595e-05" maxAge="25" minAge="20" time="7737"/>
+		<deploy coverage="0.000112050722773201" maxAge="30" minAge="25" time="7737"/>
+		<deploy coverage="0.000112050722773201" maxAge="35" minAge="30" time="7737"/>
+		<deploy coverage="0.000112050722773201" maxAge="40" minAge="35" time="7737"/>
+		<deploy coverage="0.000112050722773201" maxAge="45" minAge="40" time="7737"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="50" minAge="45" time="7737"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="55" minAge="50" time="7737"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="60" minAge="55" time="7737"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="65" minAge="60" time="7737"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="70" minAge="65" time="7737"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="75" minAge="70" time="7737"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="80" minAge="75" time="7737"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="85" minAge="80" time="7737"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="90" minAge="85" time="7737"/>
+		<deploy coverage="0.000119514257547976" maxAge="1" minAge="0" time="7810"/>
+		<deploy coverage="0.000119514257547976" maxAge="5" minAge="1" time="7810"/>
+		<deploy coverage="6.70483361325117e-05" maxAge="10" minAge="5" time="7810"/>
+		<deploy coverage="4.66446045721476e-05" maxAge="15" minAge="10" time="7810"/>
+		<deploy coverage="4.59789927407233e-05" maxAge="20" minAge="15" time="7810"/>
+		<deploy coverage="7.49845444517595e-05" maxAge="25" minAge="20" time="7810"/>
+		<deploy coverage="0.000112050722773201" maxAge="30" minAge="25" time="7810"/>
+		<deploy coverage="0.000112050722773201" maxAge="35" minAge="30" time="7810"/>
+		<deploy coverage="0.000112050722773201" maxAge="40" minAge="35" time="7810"/>
+		<deploy coverage="0.000112050722773201" maxAge="45" minAge="40" time="7810"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="50" minAge="45" time="7810"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="55" minAge="50" time="7810"/>
+		<deploy coverage="9.05966379768803e-05" maxAge="60" minAge="55" time="7810"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="65" minAge="60" time="7810"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="70" minAge="65" time="7810"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="75" minAge="70" time="7810"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="80" minAge="75" time="7810"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="85" minAge="80" time="7810"/>
+		<deploy coverage="6.49288660194748e-05" maxAge="90" minAge="85" time="7810"/>
+		<deploy coverage="0.0103726262788429" maxAge="1" minAge="0" time="7883"/>
+		<deploy coverage="0.0103726262788429" maxAge="5" minAge="1" time="7883"/>
+		<deploy coverage="0.00584542972489204" maxAge="10" minAge="5" time="7883"/>
+		<deploy coverage="0.00407374892863686" maxAge="15" minAge="10" time="7883"/>
+		<deploy coverage="0.00401584790075702" maxAge="20" minAge="15" time="7883"/>
+		<deploy coverage="0.00653285828618288" maxAge="25" minAge="20" time="7883"/>
+		<deploy coverage="0.00973109862806267" maxAge="30" minAge="25" time="7883"/>
+		<deploy coverage="0.00973109862806267" maxAge="35" minAge="30" time="7883"/>
+		<deploy coverage="0.00973109862806267" maxAge="40" minAge="35" time="7883"/>
+		<deploy coverage="0.00973109862806267" maxAge="45" minAge="40" time="7883"/>
+		<deploy coverage="0.00788242734801782" maxAge="50" minAge="45" time="7883"/>
+		<deploy coverage="0.00788242734801782" maxAge="55" minAge="50" time="7883"/>
+		<deploy coverage="0.00788242734801782" maxAge="60" minAge="55" time="7883"/>
+		<deploy coverage="0.00566168363337504" maxAge="65" minAge="60" time="7883"/>
+		<deploy coverage="0.00566168363337504" maxAge="70" minAge="65" time="7883"/>
+		<deploy coverage="0.00566168363337504" maxAge="75" minAge="70" time="7883"/>
+		<deploy coverage="0.00566168363337504" maxAge="80" minAge="75" time="7883"/>
+		<deploy coverage="0.00566168363337504" maxAge="85" minAge="80" time="7883"/>
+		<deploy coverage="0.00566168363337504" maxAge="90" minAge="85" time="7883"/>
+		<deploy coverage="0.0953707563647067" maxAge="1" minAge="0" time="7956"/>
+		<deploy coverage="0.0953707563647067" maxAge="5" minAge="1" time="7956"/>
+		<deploy coverage="0.0558388213631649" maxAge="10" minAge="5" time="7956"/>
+		<deploy coverage="0.0395170321503497" maxAge="15" minAge="10" time="7956"/>
+		<deploy coverage="0.0389750829815661" maxAge="20" minAge="15" time="7956"/>
+		<deploy coverage="0.0620386375319704" maxAge="25" minAge="20" time="7956"/>
+		<deploy coverage="0.0899500740697798" maxAge="30" minAge="25" time="7956"/>
+		<deploy coverage="0.0899500740697798" maxAge="35" minAge="30" time="7956"/>
+		<deploy coverage="0.0899500740697798" maxAge="40" minAge="35" time="7956"/>
+		<deploy coverage="0.0899500740697798" maxAge="45" minAge="40" time="7956"/>
+		<deploy coverage="0.0740005797581433" maxAge="50" minAge="45" time="7956"/>
+		<deploy coverage="0.0740005797581433" maxAge="55" minAge="50" time="7956"/>
+		<deploy coverage="0.0740005797581433" maxAge="60" minAge="55" time="7956"/>
+		<deploy coverage="0.054169203107436" maxAge="65" minAge="60" time="7956"/>
+		<deploy coverage="0.054169203107436" maxAge="70" minAge="65" time="7956"/>
+		<deploy coverage="0.054169203107436" maxAge="75" minAge="70" time="7956"/>
+		<deploy coverage="0.054169203107436" maxAge="80" minAge="75" time="7956"/>
+		<deploy coverage="0.054169203107436" maxAge="85" minAge="80" time="7956"/>
+		<deploy coverage="0.054169203107436" maxAge="90" minAge="85" time="7956"/>
+		<deploy coverage="0.0702354319325481" maxAge="1" minAge="0" time="8029"/>
+		<deploy coverage="0.0702354319325481" maxAge="5" minAge="1" time="8029"/>
+		<deploy coverage="0.0406540674632059" maxAge="10" minAge="5" time="8029"/>
+		<deploy coverage="0.0286361898551695" maxAge="15" minAge="10" time="8029"/>
+		<deploy coverage="0.0282390767217316" maxAge="20" minAge="15" time="8029"/>
+		<deploy coverage="0.0452487115721575" maxAge="25" minAge="20" time="8029"/>
+		<deploy coverage="0.066138940674363" maxAge="30" minAge="25" time="8029"/>
+		<deploy coverage="0.066138940674363" maxAge="35" minAge="30" time="8029"/>
+		<deploy coverage="0.066138940674363" maxAge="40" minAge="35" time="8029"/>
+		<deploy coverage="0.066138940674363" maxAge="45" minAge="40" time="8029"/>
+		<deploy coverage="0.0541602465315994" maxAge="50" minAge="45" time="8029"/>
+		<deploy coverage="0.0541602465315994" maxAge="55" minAge="50" time="8029"/>
+		<deploy coverage="0.0541602465315994" maxAge="60" minAge="55" time="8029"/>
+		<deploy coverage="0.0394195272285852" maxAge="65" minAge="60" time="8029"/>
+		<deploy coverage="0.0394195272285852" maxAge="70" minAge="65" time="8029"/>
+		<deploy coverage="0.0394195272285852" maxAge="75" minAge="70" time="8029"/>
+		<deploy coverage="0.0394195272285852" maxAge="80" minAge="75" time="8029"/>
+		<deploy coverage="0.0394195272285852" maxAge="85" minAge="80" time="8029"/>
+		<deploy coverage="0.0394195272285852" maxAge="90" minAge="85" time="8029"/>
+		<deploy coverage="0.0919398774820275" maxAge="1" minAge="0" time="8102"/>
+		<deploy coverage="0.0919398774820275" maxAge="5" minAge="1" time="8102"/>
+		<deploy coverage="0.0537455780113576" maxAge="10" minAge="5" time="8102"/>
+		<deploy coverage="0.0380110147991585" maxAge="15" minAge="10" time="8102"/>
+		<deploy coverage="0.0374889134792833" maxAge="20" minAge="15" time="8102"/>
+		<deploy coverage="0.0597276826987513" maxAge="25" minAge="20" time="8102"/>
+		<deploy coverage="0.0866955111407211" maxAge="30" minAge="25" time="8102"/>
+		<deploy coverage="0.0866955111407211" maxAge="35" minAge="30" time="8102"/>
+		<deploy coverage="0.0866955111407211" maxAge="40" minAge="35" time="8102"/>
+		<deploy coverage="0.0866955111407211" maxAge="45" minAge="40" time="8102"/>
+		<deploy coverage="0.0712779006559993" maxAge="50" minAge="45" time="8102"/>
+		<deploy coverage="0.0712779006559993" maxAge="55" minAge="50" time="8102"/>
+		<deploy coverage="0.0712779006559993" maxAge="60" minAge="55" time="8102"/>
+		<deploy coverage="0.0521350930504287" maxAge="65" minAge="60" time="8102"/>
+		<deploy coverage="0.0521350930504287" maxAge="70" minAge="65" time="8102"/>
+		<deploy coverage="0.0521350930504287" maxAge="75" minAge="70" time="8102"/>
+		<deploy coverage="0.0521350930504287" maxAge="80" minAge="75" time="8102"/>
+		<deploy coverage="0.0521350930504287" maxAge="85" minAge="80" time="8102"/>
+		<deploy coverage="0.0521350930504287" maxAge="90" minAge="85" time="8102"/>
+		<deploy coverage="0.0919398774820275" maxAge="1" minAge="0" time="8175"/>
+		<deploy coverage="0.0919398774820275" maxAge="5" minAge="1" time="8175"/>
+		<deploy coverage="0.0537455780113576" maxAge="10" minAge="5" time="8175"/>
+		<deploy coverage="0.0380110147991585" maxAge="15" minAge="10" time="8175"/>
+		<deploy coverage="0.0374889134792833" maxAge="20" minAge="15" time="8175"/>
+		<deploy coverage="0.0597276826987513" maxAge="25" minAge="20" time="8175"/>
+		<deploy coverage="0.0866955111407211" maxAge="30" minAge="25" time="8175"/>
+		<deploy coverage="0.0866955111407211" maxAge="35" minAge="30" time="8175"/>
+		<deploy coverage="0.0866955111407211" maxAge="40" minAge="35" time="8175"/>
+		<deploy coverage="0.0866955111407211" maxAge="45" minAge="40" time="8175"/>
+		<deploy coverage="0.0712779006559993" maxAge="50" minAge="45" time="8175"/>
+		<deploy coverage="0.0712779006559993" maxAge="55" minAge="50" time="8175"/>
+		<deploy coverage="0.0712779006559993" maxAge="60" minAge="55" time="8175"/>
+		<deploy coverage="0.0521350930504287" maxAge="65" minAge="60" time="8175"/>
+		<deploy coverage="0.0521350930504287" maxAge="70" minAge="65" time="8175"/>
+		<deploy coverage="0.0521350930504287" maxAge="75" minAge="70" time="8175"/>
+		<deploy coverage="0.0521350930504287" maxAge="80" minAge="75" time="8175"/>
+		<deploy coverage="0.0521350930504287" maxAge="85" minAge="80" time="8175"/>
+		<deploy coverage="0.0521350930504287" maxAge="90" minAge="85" time="8175"/>
+		<deploy coverage="0.0820211896318915" maxAge="1" minAge="0" time="8248"/>
+		<deploy coverage="0.0820211896318915" maxAge="5" minAge="1" time="8248"/>
+		<deploy coverage="0.0477307927805054" maxAge="10" minAge="5" time="8248"/>
+		<deploy coverage="0.0336944168625987" maxAge="15" minAge="10" time="8248"/>
+		<deploy coverage="0.0332295582362515" maxAge="20" minAge="15" time="8248"/>
+		<deploy coverage="0.0530809815810561" maxAge="25" minAge="20" time="8248"/>
+		<deploy coverage="0.077294438785381" maxAge="30" minAge="25" time="8248"/>
+		<deploy coverage="0.077294438785381" maxAge="35" minAge="30" time="8248"/>
+		<deploy coverage="0.077294438785381" maxAge="40" minAge="35" time="8248"/>
+		<deploy coverage="0.077294438785381" maxAge="45" minAge="40" time="8248"/>
+		<deploy coverage="0.0634325637358068" maxAge="50" minAge="45" time="8248"/>
+		<deploy coverage="0.0634325637358068" maxAge="55" minAge="50" time="8248"/>
+		<deploy coverage="0.0634325637358068" maxAge="60" minAge="55" time="8248"/>
+		<deploy coverage="0.0462917235397237" maxAge="65" minAge="60" time="8248"/>
+		<deploy coverage="0.0462917235397237" maxAge="70" minAge="65" time="8248"/>
+		<deploy coverage="0.0462917235397237" maxAge="75" minAge="70" time="8248"/>
+		<deploy coverage="0.0462917235397237" maxAge="80" minAge="75" time="8248"/>
+		<deploy coverage="0.0462917235397237" maxAge="85" minAge="80" time="8248"/>
+		<deploy coverage="0.0462917235397237" maxAge="90" minAge="85" time="8248"/>
+		<deploy coverage="0.0820211896318915" maxAge="1" minAge="0" time="8321"/>
+		<deploy coverage="0.0820211896318915" maxAge="5" minAge="1" time="8321"/>
+		<deploy coverage="0.0477307927805054" maxAge="10" minAge="5" time="8321"/>
+		<deploy coverage="0.0336944168625987" maxAge="15" minAge="10" time="8321"/>
+		<deploy coverage="0.0332295582362515" maxAge="20" minAge="15" time="8321"/>
+		<deploy coverage="0.0530809815810561" maxAge="25" minAge="20" time="8321"/>
+		<deploy coverage="0.077294438785381" maxAge="30" minAge="25" time="8321"/>
+		<deploy coverage="0.077294438785381" maxAge="35" minAge="30" time="8321"/>
+		<deploy coverage="0.077294438785381" maxAge="40" minAge="35" time="8321"/>
+		<deploy coverage="0.077294438785381" maxAge="45" minAge="40" time="8321"/>
+		<deploy coverage="0.0634325637358068" maxAge="50" minAge="45" time="8321"/>
+		<deploy coverage="0.0634325637358068" maxAge="55" minAge="50" time="8321"/>
+		<deploy coverage="0.0634325637358068" maxAge="60" minAge="55" time="8321"/>
+		<deploy coverage="0.0462917235397237" maxAge="65" minAge="60" time="8321"/>
+		<deploy coverage="0.0462917235397237" maxAge="70" minAge="65" time="8321"/>
+		<deploy coverage="0.0462917235397237" maxAge="75" minAge="70" time="8321"/>
+		<deploy coverage="0.0462917235397237" maxAge="80" minAge="75" time="8321"/>
+		<deploy coverage="0.0462917235397237" maxAge="85" minAge="80" time="8321"/>
+		<deploy coverage="0.0462917235397237" maxAge="90" minAge="85" time="8321"/>
+        </timed>
+      </deployment>
+    </human>
+	<changeHS>
+      <timedDeployment time="6642">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0651325764762275"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0651325764762275"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="6715">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0651325764762275"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0651325764762275"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="6788">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0651325764762275"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0651325764762275"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="6861">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0651325764762275"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0651325764762275"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="6934">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0548482642221161"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0548482642221161"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7007">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.046103485079"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.046103485079"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7080">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0382710779930284"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0382710779930284"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7153">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0432338095268961"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0432338095268961"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7226">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0483934094506506"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0483934094506506"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7299">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0540640045736762"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0540640045736762"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7372">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0536797061870295"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0536797061870295"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7445">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0532981835197579"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0532981835197579"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7518">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0529194577832797"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0529194577832797"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7591">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0525435501827829"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0525435501827829"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7664">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0521704819171807"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0521704819171807"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7737">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.058278749180224"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.058278749180224"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7810">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0649982450271655"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0649982450271655"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7883">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.072248489543512"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.072248489543512"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="7956">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0717843342648823"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0717843342648823"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="8029">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0713218648768565"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0713218648768565"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="8102">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0708611158674315"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0708611158674315"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="8175">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0704021217294917"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0704021217294917"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="8248">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0704021217294917"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0704021217294917"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+      <timedDeployment time="8321">
+        <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+		  <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+		  <initialACR>
+			<ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+			<QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+			<selfTreatment value="0"/>
+		  </initialACR>
+		  <compliance>
+			<ACT value="1"/>
+			<QN value="1"/>
+			<selfTreatment value="0"/>
+		  </compliance>
+		  <nonCompliersEffective>
+			<ACT value="0"/>
+			<QN value="0"/>
+			<selfTreatment value="0"/>
+		  </nonCompliersEffective>
+		  <treatmentActions>
+			<ACT name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</ACT>
+			<QN name="clear blood-stage infections">
+			  <clearInfections stage="blood" timesteps="-1"/>
+			</QN>
+		  </treatmentActions>
+		  <!--set as desired... -->
+		  <pSeekOfficialCareUncomplicated1 value="0.0704021217294917"/> <!-- 1: at first instance, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSelfTreatUncomplicated value="0"/> <!-- Value 0.01 used in Tediosi et al., 2006 for reference scenario -->
+		  <pSeekOfficialCareUncomplicated2 value="0.0704021217294917"/> <!-- 2: in case of treatmentfailure, Value 0.04 used in Tediosi et al., 2006 for reference scenario -->  
+		  <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+		  <primaquine>
+			<pHumanCannotReceive value="0.52"/>
+			<!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+			<pUseUncomplicated value="0.95"/>
+			<effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+			<!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+		  </primaquine>
+		</ImmediateOutcomes>
+		<CFR>
+		  <!-- CFR=1 so that all severe cases result in death -->
+		  <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+		  <group lowerbound="0" value="0.52"/>
+		</CFR>
+		<pSequelaeInpatient>
+		  <!-- no sequelae -->
+		  <group lowerbound="0.0" value="0"/>
+		</pSequelaeInpatient>
+      </timedDeployment>
+	</changeHS>
+  </interventions>
+  <healthSystem>
+    <ImmediateOutcomes name="Perfect drugs, varying access" useDiagnosticUC="@useDiagnosticUC@">
+      <drugRegimen firstLine="ACT" inpatient="QN" secondLine="ACT"/>
+      <initialACR>
+        <ACT value="1"/><!-- what is cure rate of blood-stage drugs? -->
+        <QN value="1"/><!-- NEW: set to 1 OLD: no treatment for severe (can change so long as CFR=1) -->
+        <selfTreatment value="0"/>
+      </initialACR>
+      <compliance>
+        <ACT value="1"/>
+        <QN value="1"/>
+        <selfTreatment value="0"/>
+      </compliance>
+      <nonCompliersEffective>
+        <ACT value="0"/>
+        <QN value="0"/>
+        <selfTreatment value="0"/>
+      </nonCompliersEffective>
+      <treatmentActions>
+        <ACT name="clear blood-stage infections">
+          <clearInfections stage="blood" timesteps="-1"/>
+        </ACT>
+        <QN name="clear blood-stage infections">
+          <clearInfections stage="blood" timesteps="-1"/>
+        </QN>
+      </treatmentActions>
+      <!--set as desired... -->
+      <pSeekOfficialCareUncomplicated1 value="0.0651325764762275"/>
+      <pSelfTreatUncomplicated value="0"/>
+      <pSeekOfficialCareUncomplicated2 value="0.0651325764762275"/>
+      <pSeekOfficialCareSevere value="1"/><!-- keep this at value 1, and vary using CFR --> <!-- if set to 1, then all who survive get treatment but the model reports treatment in all cases -->
+      <primaquine>
+        <pHumanCannotReceive value="0.52"/>
+        <!-- Proportion of people who are excluded from primaquine. Do not change this value when changing health system -->
+        <pUseUncomplicated value="0.95"/>
+        <effectivenessOnUse value="0.775"/><!-- 1 - 0.18 / 0.8 -->
+        <!-- Effectiveness of primaquine to clear hypnozoites from the liver: Chamchod and Beier 2013 cite Baird and Hoffman 2004 and give the following estimates: Probability of carrying hypnozoites after a complete course of treatments without primaquine (tropically) 0.63, with primaquine (tropically) 0.18. The value 0.8 comes from the distribution of hypnozoites, if base = 0.8, 20 percent of the broods have zero hypnozoites, so these are already without hypnozoites -->
+      </primaquine>
+    </ImmediateOutcomes>
+    <CFR>
+      <!-- CFR=1 so that all severe cases result in death -->
+      <!-- suggest: set to 1 minus pTreatment for severe (e.g. 1-0.48) (but note that reported nTreatments3 are treat-and-survive plus death outcomes (even without treatment))-->
+      <group lowerbound="0" value="0.52"/>
+    </CFR>
+    <pSequelaeInpatient>
+      <!-- no sequelae -->
+      <group lowerbound="0.0" value="0"/>
+    </pSequelaeInpatient>
+  </healthSystem>
+<entomology mode="dynamic" name="Namawala" scaledAnnualEIR="@scaledAnnualEIR@">
+    <vector>
+      <anopheles mosquito="gambiae_ss_indoor" propInfected="0.078" propInfectious="0.021">
+        <seasonality annualEIR="@gambiae_ss_indoor_annualEIR@" input="EIR">
+          <fourierSeries EIRRotateAngle="0">
+            <coeffic a="-1.76705510392672" b="-1.02503214678212"/>
+            <coeffic a="-1.02503214678212" b="-0.251412842286176"/>
+          </fourierSeries>
+        </seasonality>
+        <mosq minInfectedThreshold="0.001">
+          <mosqRestDuration value="3"/>
+          <extrinsicIncubationPeriod value="9"/>
+          <mosqLaidEggsSameDayProportion value="0.313"/>
+          <mosqSeekingDuration value="0.33"/>
+          <mosqSurvivalFeedingCycleProbability value="0.623"/>
+          <availabilityVariance value="0"/>
+          <mosqProbBiting mean="0.95" variance="0"/>
+          <mosqProbFindRestSite mean="0.95" variance="0"/>
+          <mosqProbResting mean="0.99" variance="0"/>
+          <mosqProbOvipositing value="0.88"/>
+          <mosqHumanBloodIndex value="@mosqHumanBloodIndex@"/>
+        </mosq>
+        <!-- <simpleMPD>-->
+          <!-- Values are made up, not from field data! -->
+          <!-- <developmentDuration value="9"/>-->
+          <!-- <developmentSurvival value="0.6"/>-->
+          <!-- <femaleEggsLaidByOviposit value="50"/>-->
+        <!-- </simpleMPD>-->
+        <nonHumanHosts name="unprotectedAnimals">
+          <mosqRelativeEntoAvailability value="1.0"/>
+          <mosqProbBiting value="0.95"/>
+          <mosqProbFindRestSite value="0.95"/>
+          <mosqProbResting value="0.99"/>
+        </nonHumanHosts>
+      </anopheles>
+      <anopheles mosquito="gambiae_ss_outdoor" propInfected="0.078" propInfectious="0.021">
+        <seasonality annualEIR="@gambiae_ss_outdoor_annualEIR@" input="EIR">
+          <fourierSeries EIRRotateAngle="0">
+            <coeffic a="-1.76705510392672" b="-1.02503214678212"/>
+            <coeffic a="-1.02503214678212" b="-0.251412842286176"/>
+          </fourierSeries>
+        </seasonality>
+        <mosq minInfectedThreshold="0.001">
+          <mosqRestDuration value="3"/>
+          <extrinsicIncubationPeriod value="9"/>
+          <mosqLaidEggsSameDayProportion value="0.313"/>
+          <mosqSeekingDuration value="0.33"/>
+          <mosqSurvivalFeedingCycleProbability value="0.623"/>
+          <availabilityVariance value="0"/>
+          <mosqProbBiting mean="0.95" variance="0"/>
+          <mosqProbFindRestSite mean="0.95" variance="0"/>
+          <mosqProbResting mean="0.99" variance="0"/>
+          <mosqProbOvipositing value="0.88"/>
+          <mosqHumanBloodIndex value="@mosqHumanBloodIndex@"/>
+        </mosq>
+        <!-- <simpleMPD>-->
+          <!-- Values are made up, not from field data! -->
+          <!-- <developmentDuration value="9"/>-->
+          <!-- <developmentSurvival value="0.6"/>-->
+          <!-- <femaleEggsLaidByOviposit value="50"/>-->
+        <!-- </simpleMPD>-->
+        <nonHumanHosts name="unprotectedAnimals">
+          <mosqRelativeEntoAvailability value="1.0"/>
+          <mosqProbBiting value="0.95"/>
+          <mosqProbFindRestSite value="0.95"/>
+          <mosqProbResting value="0.99"/>
+        </nonHumanHosts>
+      </anopheles>
+      <nonHumanHosts name="unprotectedAnimals" number="1.0"/>
+    </vector>
+  </entomology>
+</om:scenario>
+	

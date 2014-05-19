@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<om:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Vivax test" schemaVersion="32" xsi:schemaLocation="http://openmalaria.org/schema/scenario_32 scenario_32.xsd" xmlns:om="http://openmalaria.org/schema/scenario_32">
+<!-- make sure the xsd in your directory matches the name here, e.g. scenario_32RC3.xsd in windows or scenario_32.xsd in linux-->
+  <interventions name="Full Set">
+    <human>
+      <deployment name="Extended ITNs">
+        <component id="ITN"/>
+        <timed>
+			<deploy coverage="0.01" maxAge="5" minAge="1" time="7299"/>
+        </timed>
+      </deployment>
+    </human>
+  </interventions>
+</om:scenario>

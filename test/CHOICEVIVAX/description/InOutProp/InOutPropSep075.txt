@@ -1,0 +1,4 @@
+@gambiae_ss_indoor_annualEIR@:0.75
+@gambiae_ss_outdoor_annualEIR@:0.25
+@gambiae_ss_indoor_propActive@:1
+@gambiae_ss_outdoor_propActive@:0
