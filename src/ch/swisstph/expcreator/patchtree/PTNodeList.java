@@ -71,7 +71,7 @@ public class PTNodeList extends PTBase {
         List<Node> nodes = getChildNodes(parent, name);
         if (nodes.size() != this.nodes.size()) {
             // must have been incorrectly reckoned somewhere
-            throw new RuntimeException("Node list length mismatch");
+            throw new RuntimeException("Node list length mismatch on: "+name);
         }
         int n = 0;
         for (int i = 0; i < this.nodes.size(); ++i) {
